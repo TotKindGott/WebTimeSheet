@@ -1,0 +1,89 @@
+
+    html {
+        background-color: white;
+    }
+    body {
+        font-family: Lucida, Monaco, Verdana, monospace;
+        font-size: 16px;
+        width: 768px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid white;
+    }
+    h1 {
+        margin: 0;
+        padding: 0;
+        font-size: 26px;
+    }
+    h1#title {
+        float: left;
+    }
+    h1#dates {
+        float: right;
+    }
+    br.no-float {
+        float: none;
+    }
+    hr.separ {
+        border: 0; 
+        height: 1px; 
+        background: #333; 
+        background-image: linear-gradient(to right, #ccc, #333, #ccc); 
+        margin-bottom: 15px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    table {
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        width: 768px;
+        background-color: white;
+        border: 1px solid rgb(225,225,225);
+        border-collapse: collapse;
+        box-shadow: 0px 3px 5px black;
+    }
+    .in, .out, .lunch, .hours {
+        width: 90px;
+    }
+    .day {
+        width: 60px;
+    }
+    .date {
+        width: 120px;
+    }
+    th[scope="col"], th.day, #total {
+        background-color: white;
+        color: black;
+        font-weight: bold;    
+    }
+    th.date {
+	font-weight: normal;
+    }
+    th, td {
+        border: 1px solid rgb(225,225,225);
+        margin: 0px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+/*    tr.fri, tr.sun, tr.tue {
+        background-color: rgb(235,235,235);
+    }*/
+    td.hours {
+        font-weight: bold;
+    }
+    .empty {
+        background-color: none;
+    }
+    tr#last {
+        border-top: 1px solid black;
+    }
+    tr.sun th.day {
+	color: rgba(150,0,0,1);
+    }
+

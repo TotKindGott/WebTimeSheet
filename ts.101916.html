@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TimeSheet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id='title'><a href='index.html'>Alex's Timesheet</a></h1>
+    <h1 id="dates">2016-10-13 - 2016-10-19</h1>
+    <br class="no-float" />
+    <hr class="separ" />
+  </header>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">DAY</th>
+        <th scope="col">DATE</th>
+        <th scope="col">START</th>
+        <th scope="col">LUNCH</th>
+        <th scope="col">FINISH</th>
+        <th scope="col">JOB LOCATION</th>
+        <th scope="col">TOTAL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="thu">
+        <th scope="row" rowspan="1" class="day">THU</th>
+        <th scope="row" rowspan="1" class="date">2016-10-13</th>
+        <td class="in">07:00 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">02:55 PM</td>
+        <td><a href="http://maps.google.com/?q=4811%20Berckman%20Rd%2C%20North%20Charleston%2C%20SC">4811 Berckman Rd</a></td>
+        <td class="hours">07:55</td>
+      </tr>
+      <tr class="fri">
+        <th scope="row" rowspan="1" class="day">FRI</th>
+        <th scope="row" rowspan="1" class="date">2016-10-14</th>
+        <td class="in">07:00 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">02:29 PM</td>
+        <td><a href="http://maps.google.com/?q=4811%20Berckman%20Rd%2C%20North%20Charleston%2C%20SC">4811 Berckman Rd</a></td>
+        <td class="hours">07:29</td>
+      </tr>
+      <tr class="sat">
+        <th scope="row" rowspan="1" class="day">SAT</th>
+        <th scope="row" rowspan="1" class="date">2016-10-15</th>
+        <td class="in"></td>
+        <td class="lunch"></td>
+        <td class="out"></td>
+        <td><a href=""></a></td>
+        <td class="hours"></td>
+      </tr>
+      <tr class="sun">
+        <th scope="row" rowspan="1" class="day">SUN</th>
+        <th scope="row" rowspan="1" class="date">2016-10-16</th>
+        <td class="in"></td>
+        <td class="lunch"></td>
+        <td class="out"></td>
+        <td><a href=""></a></td>
+        <td class="hours"></td>
+      </tr>
+      <tr class="mon">
+        <th scope="row" rowspan="1" class="day">MON</th>
+        <th scope="row" rowspan="1" class="date">2016-10-17</th>
+        <td class="in">08:07 AM</td>
+        <td class="lunch">00:15</td>
+        <td class="out">03:39 PM</td>
+        <td><a href="http://maps.google.com/?q=4811%20Berckman%20Rd%2C%20North%20Charleston%2C%20SC">4811 Berckman Rd</a></td>
+        <td class="hours">07:17</td>
+      </tr>
+      <tr class="tue">
+        <th scope="row" rowspan="1" class="day">TUE</th>
+        <th scope="row" rowspan="1" class="date">2016-10-18</th>
+        <td class="in">07:45 AM</td>
+        <td class="lunch">00:15</td>
+        <td class="out">02:37 PM</td>
+        <td><a href="http://maps.google.com/?q=4811%20Berckman%20Rd%2C%20North%20Charleston%2C%20SC">4811 Berckman Rd</a></td>
+        <td class="hours">06:37</td>
+      </tr>
+      <tr class="wed">
+        <th scope="row" rowspan="4" class="day">WED</th>
+        <th scope="row" rowspan="4" class="date">2016-10-19</th>
+        <td class="in">08:00 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">08:42 AM</td>
+        <td><a href="http://maps.google.com/?q=4811%20Berckman%20Rd%2C%20North%20Charleston%2C%20SC">4811 Berckman Rd</a></td>
+        <td class="hours">00:42</td>
+      </tr>
+      <tr class="wed">
+        
+        <td class="in">09:36 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">11:50 AM</td>
+        <td><a href="http://maps.google.com/?q=5%2050th%20Ave%2C%20Isle%20of%20Palms%2C%20SC">5 50th Ave</a></td>
+        <td class="hours">02:14</td>
+      </tr>
+      <tr class="wed">
+        
+        <td class="in">12:20 PM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">01:10 PM</td>
+        <td><a href="http://maps.google.com/?q=4811%20Berckman%20Rd%2C%20North%20Charleston%2C%20SC">4811 Berckman Rd</a></td>
+        <td class="hours">00:50</td>
+      </tr>
+      <tr class="wed">
+        
+        <td class="in">01:45 PM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">03:24 PM</td>
+        <td><a href="http://maps.google.com/?q=407%20Jean%20Wells%20Dr%2C%20Goose%20Creek%2C%20SC">407 Jean Wells Dr</a></td>
+        <td class="hours">01:39</td>
+      </tr>
+
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <th id='total'>36:42</th>
+      </tr>
+    </tfoot>
+  </table>
+
+
+  <hr class="separ" />
+</body>
+</html>
