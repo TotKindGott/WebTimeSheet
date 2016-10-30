@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1 id="title"><a href="index.html">Alex's Timesheet</a></h1>
+    <h1 id='title'><a href='index.html'>Alex's Timesheet</a></h1>
     <h1 id="dates">2016-09-08 - 2016-09-14</h1>
     <br class="no-float" />
     <hr class="separ" />
@@ -15,7 +15,7 @@
   <table>
     <thead>
       <tr>
-        <th class="empty">DAY</th>
+        <th scope="col">DAY</th>
         <th scope="col">DATE</th>
         <th scope="col">START</th>
         <th scope="col">LUNCH</th>
@@ -122,10 +122,67 @@
         <td class="empty"></td>
         <td class="empty"></td>
         <td class="empty"></td>
-        <th id='total'>35:58</th>
+        <th id='total'>37:31</th>
       </tr>
     </tfoot>
   </table>
+
+
+  <hr class="separ" />
+    <table id="week-stat">
+      <thead>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="day">THU</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">6.73</span></td>
+        </tr>
+
+        <tr>
+          <th class="day">FRI</th>
+          <td><span class="full">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">7.6</span></td>
+        </tr>
+
+        <tr>
+          <th class="day">SAT</th>
+          <td><span class="full">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">7.62</span></td>
+        </tr>
+
+        <tr>
+          <th class="day">SUN</th>
+          <td><span class="empty">Ⅰ</span> <span class="comment">0.0</span></td>
+        </tr>
+
+        <tr>
+          <th class="day">MON</th>
+          <td><span class="full">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">8.33</span></td>
+        </tr>
+
+        <tr>
+          <th class="day">TUE</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">7.23</span></td>
+        </tr>
+
+        <tr>
+          <th class="day">WED</th>
+          <td><span class="empty">Ⅰ</span> <span class="comment">0.0</span></td>
+        </tr>
+
+
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan=2 id="week_hours"><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span><span class="placeholder">ⅠⅠⅠⅠⅠⅠ</span></td>
+        </tr>
+        <tr>
+          <td colspan=2 id="summary">37.52 hours out of 40.00</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr class="separ" />
+
+
   <hr class="separ" />
 </body>
 </html>
