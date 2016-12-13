@@ -1,10 +1,18 @@
+/* styles from fillster.com */
+
+	body {
+	    background:url(http://www.fillster.com/images/backgrounds/158j.jpg);
+	    background-attachment:fixed;
+	    background-repeat:repeat;}
+
+/* custom styles */
 
     html {
         background-color: white;
     }
     body {
         font-family: Lucida, Monaco, Verdana, monospace;
-        font-size: 16px;
+        font: 18px sans-serif;
         width: 768px;
         padding: 20px;
         margin-top: 20px;
@@ -12,9 +20,17 @@
         margin-right: auto;
         border: 1px solid white;
     }
+    header {
+        background-color: white;
+        padding: 0;
+        padding-top: 5px;
+        margin: 0;
+        margin-bottom: 35px;
+        box-shadow: 0 3px 5px black;
+    }
     h1 {
         margin: 0;
-        padding: 0;
+        padding: 0 20px;
         font-size: 26px;
     }
     h1#title {
@@ -47,6 +63,12 @@
         border-collapse: collapse;
         box-shadow: 0px 3px 5px black;
     }
+    table#main th {
+        width: 40%;
+    }
+    table#main td {
+        width: 20%;
+    }
     .in, .out, .lunch, .hours {
         width: 90px;
     }
@@ -67,8 +89,8 @@
     th, td {
         border: 1px solid rgb(225,225,225);
         margin: 0px;
-        padding-bottom: 5px;
-        padding-top: 5px;
+        padding-bottom: 7px;
+        padding-top: 7px;
         padding-left: 0px;
         padding-right: 0px;
     }
