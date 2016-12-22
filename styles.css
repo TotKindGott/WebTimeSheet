@@ -35,7 +35,7 @@
         color: rgb(100,0,100);
     }
     a:visited {
-        color: black;
+        text-decoration: none;
     }
     a:hover {
         text-decoration: underline;
