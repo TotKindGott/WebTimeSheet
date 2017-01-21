@@ -1,0 +1,172 @@
+/* styles from fillster.com */
+
+	body {
+	    background: url(http://www.fillster.com/images/backgrounds/158j.jpg);
+	    background-attachment: fixed;
+	    background-repeat: repeat;
+	}
+
+/* custom styles */
+
+    html {
+        background-color: white;
+    }
+    body {
+        font: 18px sans-serif;
+        width: 768px;
+        padding: 20px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid white;
+    }
+    header {
+        background-color: white;
+        padding: 0;
+        padding-top: 10px;
+        margin: 0;
+        margin-bottom: 35px;
+        box-shadow: 0 3px 5px black;
+    }
+    header a:link {
+        text-decoration: none;
+    }
+    a:link {
+        color: rgb(100,0,100);
+    }
+    a:visited {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    a:active {
+        
+    }
+    h1 {
+        margin: 0;
+        padding: 0 20px;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    h1#title {
+        float: left;
+    }
+    h1#dates {
+        float: right;
+    }
+    br.no-float {
+        float: none;
+    }
+    hr.separ {
+        border: 0; 
+        height: 1px; 
+        margin-bottom: 15px;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+	    visibility: hidden;
+    }
+    th, td {
+		vertical-align: middle;
+    }
+    table {
+        margin: auto;
+        padding: 0px;
+        text-align: center;
+        width: 768px;
+        background-color: white;
+        border: 1px solid rgb(225,225,225);
+        border-collapse: collapse;
+        box-shadow: 0px 3px 5px black;
+    }
+    table#main {
+        font-size: 20px;
+    }
+    table#main th {
+        width: 40%;
+        font-weight: 700;
+    }
+    table#main td {
+        width: 20%;
+    }
+    .in, .out, .lunch, .hours {
+        width: 90px;
+    }
+    .day {
+        width: 60px;
+    }
+    .date {
+        width: 120px;
+    }
+    th[scope="col"], th.day, #total {
+        background-color: white;
+        color: black;
+        font-weight: bold;    
+    }
+    th.date {
+	    font-weight: normal;
+    }
+    th, td {
+        border: 1px solid rgb(225,225,225);
+        margin: 0px;
+        padding-bottom: 7px;
+        padding-top: 7px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    /*tr.fri, tr.sun, tr.tue {
+        background-color: rgb(235,235,235);
+    }*/
+    td.hours {
+        font-weight: bold;
+    }
+    .empty {
+        background-color: none;
+    }
+    tr#last {
+        border-top: 1px solid black;
+    }
+    tr.sun th.day {
+	    color: rgb(150,0,0);
+    }
+    table#week-stat {
+	    font: 18px sans-serif;
+	    background-color: white;
+	    color: rgb(0,0,1);
+    }
+    table#week-stat td {
+	    text-align: left;
+    }
+    table#week-stat td#summary {
+	    text-align: center;
+	    font-weight: 900;
+    }
+    table#week-stat td#week_hours {
+	    text-align: center;
+    }
+    table#week-stat td {
+	    padding-left: 10px;
+	    padding-right: 10px;
+    }
+    span.full span.short span.empty span.comment span.placeholder {
+	    background-color: transparent;
+	    font-weight: 900;
+	    letter-spacing: 0px;
+	    padding: 0px;
+    }
+    span.full {
+	    color: green;
+    }
+    span.short {
+	    color: orange;
+    }
+    span.empty {
+	    color: red;
+    }
+    span.comment {
+	    color: lightgray;
+    }
+    span.placeholder {
+	    color: lightgray;
+    }
