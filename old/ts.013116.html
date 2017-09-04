@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TimeSheet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id='title'><a href='index.html'>Alex's Timesheet</a></h1>
+    <h1 id="dates">2016-01-25 - 2016-01-31</h1>
+    <br class="no-float" />
+    <hr class="separ" />
+  </header>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">DAY</th>
+        <th scope="col">DATE</th>
+        <th scope="col">START</th>
+        <th scope="col">LUNCH</th>
+        <th scope="col">FINISH</th>
+        <th scope="col">JOB LOCATION</th>
+        <th scope="col">TOTAL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="mon">
+        <th scope="row" rowspan="1" class="day">MON</th>
+        <th scope="row" rowspan="1" class="date">2016-01-25</th>
+        <td class="in"></td>
+        <td class="lunch"></td>
+        <td class="out"></td>
+        <td><a href=""></a></td>
+        <td class="hours"></td>
+      </tr>
+      <tr class="tue">
+        <th scope="row" rowspan="2" class="day">TUE</th>
+        <th scope="row" rowspan="2" class="date">2016-01-26</th>
+        <td class="in">09:27 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">10:15 AM</td>
+        <td><a href="http://maps.google.com/?q=130%20Beaverton%20Ct%2C%20Summerville%2C%20SC">130 Beaverton Ct</a></td>
+        <td class="hours">00:48</td>
+      </tr>
+      <tr class="tue">
+        <td class="in">11:57 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">04:07 PM</td>
+        <td><a href="http://maps.google.com/?q=722%20Deerhaven%20Ct%2C%20Huger%2C%20SC">722 Deerhaven Ct</a></td>
+        <td class="hours">04:10</td>
+      </tr>
+      <tr class="wed">
+        <th scope="row" rowspan="1" class="day">WED</th>
+        <th scope="row" rowspan="1" class="date">2016-01-27</th>
+        <td class="in">02:35 PM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">03:14 PM</td>
+        <td><a href="http://maps.google.com/?q=328%20Clarine%20Dr%2C%20Goose%20Creek%2C%20SC">328 Clarine Dr</a></td>
+        <td class="hours">00:39</td>
+      </tr>
+      <tr class="thu">
+        <th scope="row" rowspan="2" class="day">THU</th>
+        <th scope="row" rowspan="2" class="date">2016-01-28</th>
+        <td class="in">09:41 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">12:25 PM</td>
+        <td><a href="http://maps.google.com/?q=611%20E%20Hobcaw%20Dr%2C%20Mount%20Pleasant%2C%20SC">611 E Hobcaw Dr</a></td>
+        <td class="hours">02:44</td>
+      </tr>
+      <tr class="thu">
+        <td class="in">08:09 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">04:47 PM</td>
+        <td><a href="http://maps.google.com/?q=1520%20Devine%20St%2C%20Columbia%2C%20SC">1520 Devine St</a></td>
+        <td class="hours">08:38</td>
+      </tr>
+      <tr class="fri">
+        <th scope="row" rowspan="1" class="day">FRI</th>
+        <th scope="row" rowspan="1" class="date">2016-01-29</th>
+        <td class="in">09:09 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">11:47 AM</td>
+        <td><a href="http://maps.google.com/?q=599%20Greyback%20Rd%2C%20Summerville%2C%20SC">599 Greyback Rd</a></td>
+        <td class="hours">02:38</td>
+      </tr>
+      <tr class="sat">
+        <th scope="row" rowspan="1" class="day">SAT</th>
+        <th scope="row" rowspan="1" class="date">2016-01-30</th>
+        <td class="in"></td>
+        <td class="lunch"></td>
+        <td class="out"></td>
+        <td><a href=""></a></td>
+        <td class="hours"></td>
+      </tr>
+      <tr class="sun">
+        <th scope="row" rowspan="1" class="day">SUN</th>
+        <th scope="row" rowspan="1" class="date">2016-01-31</th>
+        <td class="in">11:17 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">01:27 PM</td>
+        <td><a href="http://maps.google.com/?q=228%20Brightwater%20Rd%2C%20Holly%20Hill%2C%20SC">228 Brightwater Rd</a></td>
+        <td class="hours">02:10</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <th id='total'>19:13</th>
+      </tr>
+    </tfoot>
+  </table>
+  <hr class="separ" />
+    <table id="week-stat">
+      <thead>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="day">MON</th>
+          <td><span class="empty">Ⅰ</span> <span class="comment">00:00</span></td>
+        </tr>
+        <tr>
+          <th class="day">TUE</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">06:40</span></td>
+        </tr>
+        <tr>
+          <th class="day">WED</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠ</span> <span class="comment">00:39</span></td>
+        </tr>
+        <tr>
+          <th class="day">THU</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">07:06</span></td>
+        </tr>
+        <tr>
+          <th class="day">FRI</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">02:38</span></td>
+        </tr>
+        <tr>
+          <th class="day">SAT</th>
+          <td><span class="empty">Ⅰ</span> <span class="comment">00:00</span></td>
+        </tr>
+        <tr>
+          <th class="day">SUN</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">02:10</span></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan=2 id="week_hours"><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span><span class="placeholder">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span></td>
+        </tr>
+        <tr>
+          <td colspan=2 id="summary">19:13 hours out of 40:00</td>
+        </tr>
+      </tfoot>
+    </table>
+  <hr class="separ" />
+</body>
+</html>
+

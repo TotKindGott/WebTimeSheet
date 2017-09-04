@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>TimeSheet</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id='title'><a href='index.html'>Alex's Timesheet</a></h1>
+    <h1 id="dates">2017-02-25 - 2017-03-03</h1>
+    <br class="no-float" />
+    <hr class="separ" />
+  </header>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">DAY</th>
+        <th scope="col">DATE</th>
+        <th scope="col">START</th>
+        <th scope="col">LUNCH</th>
+        <th scope="col">FINISH</th>
+        <th scope="col">JOB LOCATION</th>
+        <th scope="col">TOTAL</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="sat">
+        <th scope="row" rowspan="1" class="day">SAT</th>
+        <th scope="row" rowspan="1" class="date">2017-02-25</th>
+        <td class="in"></td>
+        <td class="lunch"></td>
+        <td class="out"></td>
+        <td><a href=""></a></td>
+        <td class="hours"></td>
+      </tr>
+      <tr class="sun">
+        <th scope="row" rowspan="1" class="day">SUN</th>
+        <th scope="row" rowspan="1" class="date">2017-02-26</th>
+        <td class="in"></td>
+        <td class="lunch"></td>
+        <td class="out"></td>
+        <td><a href=""></a></td>
+        <td class="hours"></td>
+      </tr>
+      <tr class="mon">
+        <th scope="row" rowspan="1" class="day">MON</th>
+        <th scope="row" rowspan="1" class="date">2017-02-27</th>
+        <td class="in">07:49 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">03:12 PM</td>
+        <td><a href="http://maps.google.com/?q=107%20Millburn%20Ave%2C%20Goose%20Creek%2C%20SC">107 Millburn Ave</a></td>
+        <td class="hours">07:23</td>
+      </tr>
+      <tr class="tue">
+        <th scope="row" rowspan="2" class="day">TUE</th>
+        <th scope="row" rowspan="2" class="date">2017-02-28</th>
+        <td class="in">08:12 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">01:11 PM</td>
+        <td><a href="http://maps.google.com/?q=107%20Millburn%20Ave%2C%20Goose%20Creek%2C%20SC">107 Millburn Ave</a></td>
+        <td class="hours">04:59</td>
+      </tr>
+      <tr class="tue">
+        <td class="in">01:31 PM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">02:09 PM</td>
+        <td><a href="http://maps.google.com/?q=2154%20Elaine%20Blvd%2C%20Summerville%2C%20SC">2154 Elaine Blvd</a></td>
+        <td class="hours">00:38</td>
+      </tr>
+      <tr class="wed">
+        <th scope="row" rowspan="2" class="day">WED</th>
+        <th scope="row" rowspan="2" class="date">2017-03-01</th>
+        <td class="in">08:29 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">12:00 PM</td>
+        <td><a href="http://maps.google.com/?q=2995%20Twisted%20Antler%20Dr%2C%20North%20Charleston%2C%20SC">2995 Twisted Antler Dr</a></td>
+        <td class="hours">03:31</td>
+      </tr>
+      <tr class="wed">
+        <td class="in">12:01 PM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">01:08 PM</td>
+        <td><a href="http://maps.google.com/?q=107%20Millburn%20Ave%2C%20Goose%20Creek%2C%20SC">107 Millburn Ave</a></td>
+        <td class="hours">01:07</td>
+      </tr>
+      <tr class="thu">
+        <th scope="row" rowspan="2" class="day">THU</th>
+        <th scope="row" rowspan="2" class="date">2017-03-02</th>
+        <td class="in">08:30 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">11:06 AM</td>
+        <td><a href="http://maps.google.com/?q=2995%20Twisted%20Antler%20Dr%2C%20North%20Charleston%2C%20SC">2995 Twisted Antler Dr</a></td>
+        <td class="hours">02:36</td>
+      </tr>
+      <tr class="thu">
+        <td class="in">11:19 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">01:12 PM</td>
+        <td><a href="http://maps.google.com/?q=1012%20Highland%20Pines%20Rd%2C%20Ladson%2C%20SC">1012 Highland Pines Rd</a></td>
+        <td class="hours">01:53</td>
+      </tr>
+      <tr class="fri">
+        <th scope="row" rowspan="1" class="day">FRI</th>
+        <th scope="row" rowspan="1" class="date">2017-03-03</th>
+        <td class="in">08:06 AM</td>
+        <td class="lunch">00:00</td>
+        <td class="out">12:00 PM</td>
+        <td><a href="http://maps.google.com/?q=1013%20Dennis%20Dr%2C%20Hanahan%2C%20SC">1013 Dennis Dr</a></td>
+        <td class="hours">03:54</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <td class="empty"></td>
+        <th id='total'>26:35</th>
+      </tr>
+    </tfoot>
+  </table>
+  <hr class="separ" />
+    <table id="week-stat">
+      <thead>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="day">MON</th>
+          <td><span class="empty">Ⅰ</span> <span class="comment">00:00</span></td>
+        </tr>
+        <tr>
+          <th class="day">TUE</th>
+          <td><span class="empty">Ⅰ</span> <span class="comment">00:00</span></td>
+        </tr>
+        <tr>
+          <th class="day">WED</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">07:23</span></td>
+        </tr>
+        <tr>
+          <th class="day">THU</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">05:57</span></td>
+        </tr>
+        <tr>
+          <th class="day">FRI</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">04:39</span></td>
+        </tr>
+        <tr>
+          <th class="day">SAT</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">04:42</span></td>
+        </tr>
+        <tr>
+          <th class="day">SUN</th>
+          <td><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span> <span class="comment">03:54</span></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan=2 id="week_hours"><span class="short">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span><span class="placeholder">ⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠⅠ</span></td>
+        </tr>
+        <tr>
+          <td colspan=2 id="summary">26:35 hours out of 40:00</td>
+        </tr>
+      </tfoot>
+    </table>
+  <hr class="separ" />
+</body>
+</html>
+
